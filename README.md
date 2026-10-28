@@ -1,7 +1,5 @@
 # Frailty and Alzheimer's disease: MR and colocalisation code
 
-This repository provides a generic R implementation of the analyses described in the manuscript:
-
 1. **`01_univariable_mr.R`** — forward GF/F1–F6 to AD (Kunkle and Wightman), reverse AD to frailty; IVW and sensitivity estimators, MR-PRESSO, heterogeneity, leave-one-out, and BH-FDR summaries.
 2. **`02_multivariable_mr.R`** — separate frailty + education + income models, then frailty + education + income + longevity, each against both AD outcomes; union of significant instruments, joint clumping and MVMR conditional instrument strength.
 3. **`03_colocalisation.R`** — F2/F5/F6 versus AD within ±1 Mb windows, coloc.abf and H0–H4 posterior probabilities.
