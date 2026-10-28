@@ -1,0 +1,46 @@
+
+# ==========================================
+# Frailty-Alzheimers-MR
+# Files excluded from version control
+# ==========================================
+
+# GWAS summary statistics and input data
+data/
+*.csv
+*.tsv
+*.txt
+*.gz
+*.bgz
+
+# Genetic reference files (PLINK)
+reference/
+*.bed
+*.bim
+*.fam
+*.pgen
+*.pvar
+*.psam
+
+# MR and colocalisation results
+results/
+output/
+plots/
+figures/
+
+# R workspace and temporary files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rds
+*.rds
+*.RData
+*.Rda
+
+# Log and temporary files
+*.log
+*.tmp
+*.out
+
+# Operating system files
+.DS_Store
+Thumbs.db
